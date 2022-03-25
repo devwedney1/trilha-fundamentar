@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+}
+/*header{
+    height: 100px;
+    border: 7px dashed red;
+    padding: 16px;
+    background-color: rgb(55, 100, 50);
+    background-image: URL(https://www.voeazul.com.br/en/img/1466430298038-azul-logo-color.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-origin: content-box;
+    background-clip: content-box;
+}*/
+
+main{
+    color: white;
+    background-color: rgb(55, 100, 50);
+    background-image: URL(https://www.voeazul.com.br/en/img/1466430298038-azul-logo-color.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-origin: content-box;
+    background-clip: content-box;
+    background-attachment: fixed;
+
+    /*utilizado shorthand - style em inline*/
+
+    background:rgb(55, 100, 50) URL(https://www.voeazul.com.br/en/img/1466430298038-azul-logo-color.svg) no-repeat right top / 100px border-box content-box fixed;
+    background: linear-gradient(rgb(255, 81, 0),rgb(200, 255, 0))
+}

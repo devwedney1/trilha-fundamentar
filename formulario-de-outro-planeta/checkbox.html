@@ -1,0 +1,43 @@
+<!--
+
+    <input type="checkbox">
+
+    - Caixas que podem ser marcadas
+    - Selecionar um valor para ser enviado
+    - Se não selecionad, não será enviado nenhum dado
+
+    ATRIBUTOS
+    - globais
+    - value
+        * valor que aquele compo contém
+        * se não estiver presente, o padrão é 'on'
+    -checked
+        * para deixar o campo marcado por padrão
+
+-->
+
+<!--
+
+<label for="subscribe">Receber notificações</label>
+<input type="checkbox" name="subscribe" id="subscribe" checked>
+-->
+
+<!--
+
+    MARCAR MÚLTIPLOS VALORES 
+
+    - Usaremos o atributo 'name' com o mesmo nome para os diversos camops
+
+-->
+
+<fieldset>
+    <legend>Choose your interests</legend>
+    <div>
+        <input type="checkbox" id="coding" name="interests" valeu="coding" checked>
+        <label for="coding">Coding</label>
+    </div>
+    <div>
+        <input type="checkbox" id="music" name="interests" valeu="music"checked>
+        <label for="music">Music</label>
+    </div>
+</fieldset>

@@ -1,0 +1,27 @@
+<!--
+
+    <input type="search" />
+
+    - Para compos de busca
+    - É igual ao compo do tipo 'text' mas poderá ser um pouco diferente dependendo do user agent
+
+
+    # Atributos 
+
+    - list / <datalist>
+        - pattern
+        - aria-label
+
+-->
+
+<datalist id=searchtens>
+    <option>Mac</option>
+    <option>Wind</option>
+    <option>Linux</option>
+</datalist>
+
+<form action="">
+    <input type="search" id="q" name="search" list="searchtens" placeholder="Digite a sua pesquisar"
+    aria-label="Digite sua pesquisa aqui">
+    <button>Pesquisar</button>
+</form>
