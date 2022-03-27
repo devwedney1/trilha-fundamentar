@@ -5,15 +5,3 @@
 - Valores: (row | row-reverse | column | column-reverse)S
 
 
-```html
-
-<div class="continier">
-    <div class="item"></div>
-    <div class="item"></div>
-    <div class="item"></div>
-</div>
-
-<style>
-
-
-</style>
