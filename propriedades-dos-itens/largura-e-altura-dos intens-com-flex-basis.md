@@ -1,0 +1,30 @@
+# Flex-basis
+
+```HTML
+
+<div class="box">
+    <div>A</div>
+    <div>B</div>
+    <div>C</div>
+    <div>D</div>
+</div>
+
+```
+
+```CSS
+<style>
+.box{
+    display: flex;
+
+    border: 1px dashed red;
+}
+
+.box div{
+    border: 1px solid;
+}
+.box div:nth-child(1){
+    flex-basis: 25px;
+}
+<style>
+
+```
