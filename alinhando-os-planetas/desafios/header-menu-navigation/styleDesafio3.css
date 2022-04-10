@@ -1,0 +1,14 @@
+img{
+    width: 30%;
+    height: auto;
+}
+
+.contanier{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8rem;
+    justify-content: center;
+    
+}
+
+
