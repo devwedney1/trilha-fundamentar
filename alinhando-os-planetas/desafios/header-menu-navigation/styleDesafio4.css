@@ -1,0 +1,13 @@
+.play img{
+    display: flex;
+    gap: .4rem;
+}
+
+img{
+    height: 50px;
+    width: auto;
+}
+.phone img{
+    display: flex;
+    gap: .4rem;
+}
